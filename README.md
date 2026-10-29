@@ -1,6 +1,6 @@
 # SAHI-EHR: Adaptive Hybrid Indexing for Streaming Electronic Health Records
 
-**Academic Year:** 2026–27 | **Course:** Data Structures and Algorithms
+**Academic Year:** 2026–27 | **Course:** Advanced Data Structures and Algorithms
 
 ## 📌 Project Overview
 Intensive Care Unit (ICU) data streams generate continuous, bursty physiological telemetry alongside diagnostic ICD-10 annotations. Standard single-paradigm indexes (like B+ Trees or LSM Trees) struggle with mixed workloads, causing severe latency spikes during data bursts. 
