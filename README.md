@@ -21,3 +21,18 @@ Intensive Care Unit (ICU) data streams generate continuous, bursty physiological
 1. Navigate to the `code/` directory:
    ```bash
    cd code
+
+
+Generating 100,000 synthetic clinical records...
+Exporting dataset to: ../dataset/mimic_iv_synthetic_stream.csv ...
+Dataset successfully saved!
+
+=======================================================
+                 BENCHMARK RESULTS                     
+=======================================================
+Ingestion Latency   : P50 = 0.80 us | P99 = 5.00 us
+Top-10 Query Latency: P50 = 3.50 us | P99 = 18.60 us
+Autocomplete Latency: P50 = 1.10 us | P99 = 7.00 us
+Range Scan Latency  : P50 = 168.40 us | P99 = 1295.70 us
+Resident JVM Memory : 26 MB
+=======================================================
